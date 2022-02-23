@@ -18,47 +18,25 @@
   ],
   "users": [
     {
-      "id": 1,
-      "birth_date": "12/11/2001",
-      "email": "rob23@gmail.com",
-      "password": "1111"
-    },
-    {
-      "id": 6,
-      "birth_date": "2022-11-02",
-      "email": "admin@example.com",
-      "password": "1111"
-    },
-    {
-      "id": 76,
-      "birth_date": "2022-02-24",
-      "email": "test@example.com",
-      "password": "nQTUaP5xaFit6CT"
-    },
-    {
-      "id": 89,
-      "birth_date": "2022-02-24",
-      "email": "test@example.com",
-      "password": "dwdwd"
-    },
-    {
-      "id": 57,
-      "birth_date": "2022-02-24",
-      "email": "test@example.com",
-      "password": "232323"
-    },
-    {
-      "id": 151,
-      "birth_date": "2022-02-02",
-      "email": "illia@gmail.com",
-      "password": "1111"
-    },
-    {
       "id": 770,
       "birth_date": "2022-02-02",
       "email": "test@test.com",
-      "password": "2222"
+      "password": "2222",
+      "name": "Dima"
+    },
+    {
+      "id": 867,
+      "birth_date": "2001-08-02",
+      "email": "illia@gmail.com",
+      "name": "Illia Domaratskyi",
+      "password": "1111"
     }
   ],
-  "currentUser": {}
+  "currentUser": {
+    "id": 867,
+    "birth_date": "2001-08-02",
+    "email": "illia@gmail.com",
+    "name": "Illia Domaratskyi",
+    "password": "1111"
+  }
 }

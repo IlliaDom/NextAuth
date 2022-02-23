@@ -55,6 +55,7 @@ export default function Index({user:serverPost}:UserData) {
                 <title>User Data</title>
             </Head>
             <h1 className="text-1xl font-bold underline text-center mt-6">User {user && user.email}</h1>
+            <p className="text-center mt-6">Name: {user && user.name}</p>
             <p className="text-center mt-6">User Birth Date: {user && user.birth_date}</p>
             <button
                 onClick={Logout}

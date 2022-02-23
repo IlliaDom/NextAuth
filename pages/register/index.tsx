@@ -13,6 +13,7 @@ export default function Example() {
             id: random,
             birth_date: data.birth_date,
             email: data.email,
+            name: data.name,
             password: data.password
         }
         const response = await fetch(`${process.env.API_URL}/users/`,{
@@ -62,6 +63,17 @@ export default function Example() {
                   className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                   placeholder="Email address"
                   {...register("email", { required: true })}
+                />
+              </div>
+              <div>
+                <label htmlFor="email-address" className="sr-only">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                  placeholder="Full Name"
+                  {...register("name", { required: true })}
                 />
               </div>
               <div>
